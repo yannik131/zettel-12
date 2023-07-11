@@ -31,7 +31,7 @@ plt.plot(fit_x, fit_y, '--', label="Linearer fit")
 
 plt.plot(temperatures_inv, pressures_log, 'o', label="Messdaten", markersize=5)
 plt.xlabel("$\\frac{1}{T_2}-\\frac{1}{T_1} \\left[\\frac{1}{K}\\right]$")
-plt.ylabel("$\\ln{\\left(\\frac{1}{p_2}-\\frac{1}{p1}\\right)}$")
+plt.ylabel("$\\ln{\\left(\\frac{p_2}{p_1}\\right)}$")
 plt.legend()
 plt.title("Logarithmierte Drücke aufgetragen gegen Temperaturkehrwerte gemäß\nder Clausius-Clapeyron-Gleichung")
 plt.show()
